@@ -1,6 +1,9 @@
+# Project template
 - name: CloudSuite
   link: cloudsuite.ch
   github: parsa-epfl/cloudsuite
+#  quote: >
+#    Short overview of the project (optional)
   description: | # this will include new lines to allow paragraphs
     CloudSuite is a benchmark suite of cloud services.
     The benchmarks are based on real-world software stacks and represent real-world setups.

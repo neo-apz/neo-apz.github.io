@@ -1,6 +1,6 @@
 # Site
-repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Arash Pourhabibi
@@ -21,7 +21,7 @@ linkedin_username: arashpourhabibizarandi
 # googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me
+# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   My name is [Arash](https://en.wikipedia.org/wiki/Arash) (Persian: آرش) (aka NEO).
@@ -47,28 +47,27 @@ cv: files/cv.pdf
 cv_updated: Feb. 2018
 
 # Projects Section
-# projects_title: Projects
+# projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience
+# experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education
+# educaton_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me
+# more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
 
 # Build settings
-# remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -76,5 +75,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-   # My name is Arash (Persian: آرش) (aka NEO), and I am from Iran. I am a PhD candidate at the School of Computer and Communication Sciences, EPFL, and a doctoral research assistant at PARSA under supervision of Prof. Babak Falsafi. I did my master’s in Software Engineering at the Department of CSE and IT of Shiraz University, where I also received my B.Sc. in Software Engineering.
