@@ -5,8 +5,8 @@
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Doctoral Research Assistant at PARSA under supervision of Prof. Babak Falsafi
-    
+    Doctoral research assistant at the Parallel Systems Architecture (PARSA) lab under supervision of Prof. Babak Falsafi.
+
     Related Courses: Advanced Multiprocessor Architecture, Topics on Datacenter Design, Understanding Datacenter Software Dynamics
 
 - name: Shiraz University
