@@ -1,9 +1,27 @@
-- name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
-  quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+- name: EPFL
+  dates: 2015 - 2021 (Expected)
+  qualification: Ph.D. in Computer & Communication Sciences
+  # quote: >
+  #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    Doctoral Research Assistant at PARSA under supervision of Prof. Babak Falsafi
+    
+    Related Courses: Advanced Multiprocessor Architecture, Topics on Datacenter Design, Understanding Datacenter Software Dynamics
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+- name: Shiraz University
+  dates: 2013 - 2015
+  qualification: M.Sc. in Computer Engineering (Software Engineering)
+  description: | # this will include new lines to allow paragraphs
+    Thesis: Design & Implementation of a Scheme for Big Data Processing on GPU
+    
+    Advisor: Dr. Farshad Khunjush
+    
+    Ranked First: Achieving the highest course GPA (19.84/20) among all M.Sc. students
+    
+    Related Courses: Advanced OS, Advanced Computer Architecture, Multicore Programming, Parallel Algorithms, Grid Computing, Software Architecture, Text Mining
+
+- name: Shiraz University
+  dates: 2009 - 2013
+  qualification: B.Sc. in Computer Engineering (Software Engineering)
+  description: | # this will include new lines to allow paragraphs
+    Ranked First: Achieved the highest GPA in CS courses (18.88/20) among all B.Sc. students
