@@ -6,6 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 name: Arash Pourhabibi
 title: A computer geek, a food lover, and a traveler-wannabe
 email: arash.pourhabibi@epfl.ch
+phone: Your phone number (optional)
 website: arash.pourhabibi.info
 
 # Social links
@@ -16,6 +17,7 @@ github_username:  neo-apz
 # flickr_username: jekyll
 instagram_username: neo_apz
 linkedin_username: arashpourhabibizarandi
+# xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
@@ -53,7 +55,7 @@ cv_updated: Feb. 2018
 # experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education #(Use this to override about education section title)
+# education_title: Education #(Use this to override about education section title)
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)

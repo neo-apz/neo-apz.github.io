@@ -6,6 +6,7 @@ repository: sproogen/modern-resume-theme
 name: Your Name
 title: Your job title
 email: test@email.com
+phone: 07845248563
 website: sproogen.github.io/modern-resume-theme
 
 # Social links
@@ -16,6 +17,7 @@ facebook_username: jekyll
 flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
+xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll

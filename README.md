@@ -1,17 +1,21 @@
 # modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) [![Build Status](https://travis-ci.org/sproogen/modern-resume-theme.svg?branch=master)](https://travis-ci.org/sproogen/modern-resume-theme)
 
-*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
+*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
 *Host your own resume on GitHub for **free!***
 
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
 
 ![img](screenshot.png)
 
-*Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose) or feel free to send me an email to [sprog31@gmail.com](mailto:sprog31@gmail.com). I would love to see how you are using it and I'm always happy to help.*
+*Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose) or feel free to send me an email to [sprog31@gmail.com](mailto:sprog31@gmail.com), I'm always happy to help.*
+
+*I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).*
+
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vJ6HfLu)
 
 *If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.*
 
-You can view the full project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
+You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
 
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
@@ -61,9 +65,24 @@ A list of all your education, each education will follow this format
 A list of all your experience, each experience will follow this format
 ```
 - company: Company name
-  link: Link to company (optional)
+  link: Link to company (eg. https://google.com)(optional)
   job_title: Job title
   dates: Date Range (eg. November 2016 - present)
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+```
+
+If you wish to specify multiple titles for a single company, use this format
+```
+- company: Company name
+  link: Link to company (optional)
+  jobs:
+    - title: Job title 1
+      dates: Date Range (eg. November 2016 - present)
+    - title: Job title 2
+      dates: Date Range (eg. January 2015 - November 2016)
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
@@ -74,7 +93,7 @@ A list of all your experience, each experience will follow this format
 A list of all your projects, each project will follow this format
 ```
 - name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  link: Link to project (eg. https://sproogen.github.io/modern-resume-theme)(optional)
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     Short overview of the project (optional)
