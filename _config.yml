@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 name: Arash Pourhabibi
 title: A computer geek, a food lover, and a traveler-wannabe
 email: arash.pourhabibi@epfl.ch
-# phone:  +41 21 693 13 79
+phone:  +41 21 693 13 79
 website: arash.pourhabibi.info
 
 # Social links
@@ -77,3 +77,12 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: /:year-:month-:day-:title/
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
