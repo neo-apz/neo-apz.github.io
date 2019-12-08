@@ -1,0 +1,55 @@
+# Publication template
+- title: "Optimus Prime: Accelerating Data Transformation in Servers."
+  venue: | 
+    To Appear In Proceedings of the 25th ACM International Conference on
+    Architectural Support for Programming Languages and Operating Systems,
+    ASPLOS'20, March 2020.
+  authors: |
+    Arash Pourhabibi, Siddharth Gupta, Hussein Kassir, Mark Sutherland,
+    Zilu Tian, Mario Drumond, Babak Falsafi, Christoph Koch.
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Modern online services are shifting away from monolithic applications to
+    hundreds of loosely-coupled microservices because of the benefits they bring
+    in the form of scalability, reliability, programmability and deployment.
+    Because of the reduction in service time, the improvements in speed in
+    emerging network fabrics and communication protocols,
+    the data transformation software converting object formats from one microservice
+    to another is becoming a bottleneck.
+    In this paper, we introduce Optimus Prime (OP), a programmable accelerator
+    for data transformation that uses a novel hardware abstraction,
+    an in-memory schema specifying the operations required for data transformation.
+    The schema enables the accelerator front-end to maximize memory-level parallelism
+    through multiple pointer chains and gather data conversion tuples for
+    a parallel back-end. We show that OP can achieve a transformation throughput
+    at the network card line rate and has 100x higher throughput compared to software
+    at a tiny fraction of the CPU's silicon overhead or power.
+    We evaluate microservices on Thrift and show up to 30% reduction
+    in overall service latency.
+
+
+- title: Towards Near-Threshold Server Processors.
+  venue: |
+    In Proceedings of the 2016 Conference on
+    Design, Automation & Test in Europe (DATE), Dresden, Germany, March 2016.
+  authors: |
+    A. Pahlevan, J. Picorel, A. Pourhabibi, D. Rossi, M. Zapater,
+    A. Bartolini, P. G. Del Valle, D. Atienza, L. Benini, and B. Falsafi.
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    The popularity of online services drives the need for bigger datacenters with more server processors.
+    As Moore’s law continues, the number of transistors on chip rises exponentially,
+    enabling us to have CMPs with hundreds of cores.
+    However, due to the slowdown in Dennard’s scaling, we cannot power up all of them at the same time.
+    Hence, soon we will enter an era of “dark silicon”, in which we cannot power up fast and dense processors.
+    In this work, we explore the potential directions to improve the energy efficiency of
+    server processors in the post-Dennard era. Moreover, we investigate the hardware- and software-related
+    constraints of designing a server processor for modern cloud services,
+    and we propose an approach based on near-threshold computing (NTC) to
+    design energy efficient server processors.
+    We propose an architecture based on the FD-SOI process technology for NTC in servers.
+    Our study demonstrates the benefits of NTC and proposes several directions to
+    synergistically increase the energy proportionality of a near-threshold server.
