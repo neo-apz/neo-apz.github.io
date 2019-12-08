@@ -15,7 +15,7 @@
     which is a major enhancement over prior releases both in benchmarks and infrastructure.
 
 - name: QFlex
-  # link: 
+  link: qflex.epfl.ch
   github: parsa-epfl/qflex
   description: | # this will include new lines to allow paragraphs
     The QFlex project targets quick, accurate, and flexible simulation of multi-node computer systems
