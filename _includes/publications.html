@@ -7,6 +7,15 @@
                     <b> {{ publication.title }}</b>
                     {{ publication.authors }}
                     <i> {{ publication.venue }} </i>
+                    {%- if publication.epfl-link -%}
+                      {% include a.html href=publication.epfl-link class="project-link" %} [Detailed Record] </a>
+                    {%- endif -%}
+
+                    {%- if publication.publisher-link -%}
+                      {% include a.html href=publication.publisher-link class="project-link" %} [View at Publisher] </a>
+                    {%- endif -%}
+                    
+                    
                 </p>
                 
                 <!-- {{ publication.title | strip | markdownify }} -->
