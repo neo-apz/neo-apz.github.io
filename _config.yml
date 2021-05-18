@@ -37,16 +37,14 @@ about_content: | # this will include new lines to allow paragraphs
 # Interests Section
 # interests_title: Research Interests
 interests_content: | # this will include new lines to allow paragraphs
-  I am broadly interested in the field of systems and interdisciplinary systems problems
-  found in modern, large-scale datacenters.
-  My current research revolves around efficiency and sustainability enhancement of server systems
-  for datacenters.
-  By characterizing modern server workloads and employing emerging memory subsystems,
-  I look for minimizing the energy footprint and maximizing the compute density of
-  server systems through specialization of various system components, and better system integration.
+  I am broadly interested in the field of computer systems and interdisciplinary systems-level problems found in modern,
+  large-scale datacenters, from cloud services to data stores and all the way down to server systems.
+  By characterizing modern datacenter applications, I look for maximizing the compute density of server systems
+  and minimizing their energy footprint through specialization of various system components and better system integration.
+  My current focus is on the evasion of the RPC tax in datacenters through hardware-software co-design.
 
 cv: files/cv.pdf
-cv_updated: Feb. 2018
+cv_updated: May 2021
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)

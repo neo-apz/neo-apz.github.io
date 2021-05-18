@@ -6,7 +6,9 @@
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Doctoral research assistant at the Parallel Systems Architecture (PARSA) lab under supervision of Prof. Babak Falsafi.
-
+    
+    Thesis: Hardware-software Co-design to Evade the RPC Tax in Datacenters
+    
     Related Courses: Advanced Multiprocessor Architecture, Topics on Datacenter Design, Understanding Datacenter Software Dynamics
 
 - name: Shiraz University
