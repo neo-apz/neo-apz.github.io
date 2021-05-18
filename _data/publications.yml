@@ -1,4 +1,36 @@
 # Publication template
+- title: "Data Transformer Apparatus."
+  venue: | 
+    Patent (Pending), March 2021.
+  authors: |
+    Arash Pourhabibi, Siddharth Gupta, Hussein Kassir, Mark Sutherland,
+    Zilu Tian, Mario Drumond, Babak Falsafi, Christoph Koch.
+  epfl-link: https://infoscience.epfl.ch/record/284796?ln=en
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Data transformer apparatus comprising at least a dispatcher module (D),
+    a reader module (R), a converter module (C) and a writer module (W).
+    The dispatcher module (D) is configured to: receive a data transformation request
+    (DTR) including: a first information item (X1) associated to a memory address where
+    data to be transformed (Data1) are stored and to a type attribute (T) of said data to
+    be transformed (Data1); a second information item (X2) indicating a memory address
+    where transformed data (Data2), obtained from said data to be transformed (Data1),
+    have to be written. The reader module (R) is configured to: retrieve the data to be
+    transformed, according to said first information item (X1); obtain the type attribute
+    (T) of the data to be transformed (Data1), based on said first information item (X1);
+    send the data to be transformed (Data1) and the type attribute (T) thereof to the
+    converter module (C). The converter module (C) is configured to: select one or more
+    transformation instructions (INST) based on said type attribute (T); execute,
+    on the data to be transformed (Data1), the selected one or more transformation
+    instructions (INST), thereby obtaining the transformed data (Data2);
+    send the transformed data (Data2) to the writer module (W). The writer module (W)
+    is configured to: receive the transformed data (Data2) from the converter module (C);
+    write the transformed data (Data2) in an output buffer according to said
+    second information item (X2).
+
+
 - title: "Optimus Prime: Accelerating Data Transformation in Servers."
   venue: | 
     In Proceedings of the 25th ACM International Conference on
