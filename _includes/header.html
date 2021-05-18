@@ -6,6 +6,13 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
+        {%- if site.linkedin_username -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.dribbble_username -%}
           <li>
             <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -34,17 +41,17 @@
             </a>
           </li>
         {%- endif -%}
+				{%- if site.twitter_username -%}
+					<li>
+						<a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+							<i class="fa fa-twitter" title="Twitter link"></i>
+						</a>
+					</li>
+				{%- endif -%}
         {%- if site.instagram_username -%}
           <li>
             <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-instagram" title="Instagram link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.linkedin_username -%}
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-linkedin" title="Linkedin link"></i>
             </a>
           </li>
         {%- endif -%}
@@ -59,13 +66,6 @@
           <li>
             <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-pinterest" title="Pintrest link"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.twitter_username -%}
-          <li>
-            <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-twitter" title="Twitter link"></i>
             </a>
           </li>
         {%- endif -%}
