@@ -1,4 +1,29 @@
 # Publication template
+
+- title: "Cerebros: Evading the RPC Tax in Datacenters."
+  venue: | 
+    To appear in Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Athens, Greece, October 2021.
+  authors: |
+    Arash Pourhabibi, Mark Sutherland, Alexandros Daglis, Babak Falsafi.
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Abstract placeholder.
+
+- title: "Equinox: Training (for Free) on a Custom Inference Accelerator."
+  venue: | 
+    To appear in Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Athens, Greece, October 2021.
+  authors: |
+    Mario Drumond, Louis Coulon, Arash Pourhabibi, Ahmet Yüzügüler, Babak Falsafi, Martin Jaggi.
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Abstract placeholder.
+
 - title: "Data Transformer Apparatus."
   venue: | 
     Patent (Pending), March 2021.
