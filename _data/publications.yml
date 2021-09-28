@@ -2,27 +2,68 @@
 
 - title: "Cerebros: Evading the RPC Tax in Datacenters."
   venue: | 
-    To appear in Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
-    MICRO'21, Athens, Greece, October 2021.
+    In Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Virtual Event, Greece, October 2021.
+
   authors: |
     Arash Pourhabibi, Mark Sutherland, Alexandros Daglis, Babak Falsafi.
+  epfl-link: https://infoscience.epfl.ch/record/288432?ln=en
+  publisher-link: https://doi.org/10.1145/3466752.3480055
 
 #  quote: >
 #    Short overview of the project (optional)
   abstract: | # this will include new lines to allow paragraphs
-    Abstract placeholder.
+    The emerging paradigm of microservices decomposes online services into fine-grained
+    software modules frequently communicating over the datacenter network,
+    often using Remote Procedure Calls (RPCs). Ongoing advancements in the network stack
+    have exposed the RPC layer itself as a bottleneck, that we show accounts for 40–90%
+    of a microservice's total execution cycles. We break down the underlying modules
+    that comprise production RPC layers and demonstrate, based on prior evidence,
+    that CPUs can only expect limited improvements for such tasks, mandating a shift to
+    hardware to remove the RPC layer as a limiter of microservice performance.
+    Although recently proposed accelerators can efficiently handle a portion of
+    the RPC layer, their overall benefit is limited by unnecessary CPU involvement, which
+    occurs because the accelerators are architected as co-processors under the CPU's
+    control. Instead, we show that conclusively removing the RPC layer bottleneck requires
+    all of the RPC layer's modules to be executed by a NIC-attached hardware accelerator.
+    We introduce Cerebros, a dedicated RPC processor that executes the Apache Thrift RPC
+    layer and acts as an intermediary stage between the NIC and the microservice running
+    on the CPU. Our evaluation using the DeathStarBench microservice suite shows that
+    Cerebros reduces the CPU cycles spent in the RPC layer by 37–64×, yielding a 1.8–14×
+    reduction in total cycles expended per microservice request.
 
 - title: "Equinox: Training (for Free) on a Custom Inference Accelerator."
   venue: | 
-    To appear in Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
-    MICRO'21, Athens, Greece, October 2021.
+    In Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Virtual Event, Greece, October 2021.
   authors: |
     Mario Drumond, Louis Coulon, Arash Pourhabibi, Ahmet Yüzügüler, Babak Falsafi, Martin Jaggi.
+  epfl-link: https://infoscience.epfl.ch/record/288715?ln=en
+  publisher-link: https://doi.org/10.1145/3466752.3480057
 
 #  quote: >
 #    Short overview of the project (optional)
   abstract: | # this will include new lines to allow paragraphs
-    Abstract placeholder.
+    DNN inference accelerators executing online services exhibit low average loads
+    because of service demand variability, leading to poor resource utilization.
+    Unfortunately, reclaiming idle inference cycles is difficult as other workloads
+    can not execute on a custom accelerator. With recent proposals for the use of
+    fixed-point arithmetic in training, there are opportunities for training services
+    to piggyback on inference accelerators. We make the observation that a key challenge
+    in doing so is maintaining service-level latency constraints for inference.
+    We show that relaxing latency constraints in an inference accelerator with ALU arrays
+    that are batching-optimized achieves near-optimal throughput for a given area
+    and power envelope while maintaining inference services' tail latency goals.
+    We present Equinox, a custom inference accelerator designed to piggyback training.
+    Equinox employs a uniform arithmetic encoding to accommodate inference and training
+    and a priority hardware scheduler with adaptive batching that interleaves training
+    during idle inference cycles. For a 500𝜇𝑠 inference service time constraint,
+    Equinox achieves 6.67× higher throughput than a latency-optimal inference accelerator.
+    Despite not being optimized for training services, Equinox achieves up to 78% of
+    the throughput of a dedicated training accelerator that saturates the available
+    compute resources and DRAM bandwidth. Finally, Equinox’s controller logic incurs
+    less than 1% power and area overhead, while the uniform encoding (to enable training)
+    incurs 13% power and 4% area overhead compared to a fixed-point inference accelerator.
 
 - title: "Data Transformer Apparatus."
   venue: | 
