@@ -1,13 +1,13 @@
 # Education Template
 - name: EPFL
-  dates: 2015 - 2021 (Expected)
+  dates: 2015 - 2021
   qualification: Ph.D. in Computer & Communication Sciences
   # quote: >
   #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Doctoral research assistant at the Parallel Systems Architecture (PARSA) lab under supervision of Prof. Babak Falsafi.
     
-    Thesis: Hardware-software Co-design to Evade the RPC Tax in Datacenters
+    Thesis: Hardware-Software Co-Design of an RPC Processor
     
     Related Courses: Advanced Multiprocessor Architecture, Topics on Datacenter Design, Understanding Datacenter Software Dynamics
 

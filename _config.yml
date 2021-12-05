@@ -5,8 +5,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 # Personal info
 name: Arash Pourhabibi
 title: A computer geek, a food lover, and a traveler-wannabe
-email: arash.pourhabibi@epfl.ch
-phone:  +41 21 693 13 79
+email: arash.pourhabibi@oracle.com
+# phone:  +41 21 693 13 79
 website: arash.pourhabibi.info
 
 # Social links
@@ -26,10 +26,14 @@ linkedin_username: arashpourhabibizarandi
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is [Arash](https://en.wikipedia.org/wiki/Arash) (Persian: آرش) (aka NEO).
-  I am a PhD candidate at the [School of Computer and Communication Sciences](http://ic.epfl.ch/),
-  [EPFL](https://www.epfl.ch/en/home/), and a doctoral research assistant at [PARSA](http://parsa.epfl.ch)
-  under supervision of [Prof. Babak Falsafi](http://parsa.epfl.ch/~falsafi/).
+  My name is [Arash](https://en.wikipedia.org/wiki/Arash) (aka NEO).
+  I recently joined Oracle as a Member of Technical Staff (IC3) working on
+  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
+  Prior to that, I was a PhD candidate at the
+  [School of Computer and Communication Sciences](http://ic.epfl.ch/),
+  [EPFL](https://www.epfl.ch/en/home/), and a doctoral research assistant at
+  [PARSA](http://parsa.epfl.ch) under supervision of
+  [Prof. Babak Falsafi](http://parsa.epfl.ch/~falsafi/).
   I did my master’s in Software Engineering at the Department of CSE and IT of
   [Shiraz University](http://en.wikipedia.org/wiki/Shiraz_University),
   where I also received my B.Sc. in Software Engineering.
@@ -37,16 +41,17 @@ about_content: | # this will include new lines to allow paragraphs
 # Interests Section
 # interests_title: Research Interests
 interests_content: | # this will include new lines to allow paragraphs
-  I am broadly interested in the field of computer systems and interdisciplinary systems-level problems found in modern,
-  large-scale datacenters, from cloud services to data stores and all the way down to server systems.
-  By characterizing modern datacenter applications, I look for maximizing the compute density of server systems
-  and minimizing their energy footprint through specialization of various system components and better system integration.
-  My current focus is on the evasion of the RPC tax in datacenters through hardware-software co-design.
-
-  **I am currently on the job market. I expect to graduate at the end of the Summer.**
+  I am broadly interested in the field of computer systems and interdisciplinary
+  systems-level problems found in modern, large-scale datacenters, from cloud services
+  to data stores and all the way down to server systems.
+  By characterizing modern datacenter applications, I look for maximizing the
+  compute density of server systems and minimizing their energy footprint through
+  specialization of various system components and better system integration.
+  The focus of my PhD thesis was on the evasion of the RPC tax in datacenters
+  through hardware-software co-design.
 
 cv: files/cv.pdf
-cv_updated: July 2021
+cv_updated: December 2021
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
