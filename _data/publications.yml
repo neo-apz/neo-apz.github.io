@@ -1,0 +1,155 @@
+- title: "Cerebros: Evading the RPC Tax in Datacenters."
+  venue: | 
+    In Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Virtual Event, Greece, October 2021.
+
+  authors: |
+    Arash Pourhabibi, Mark Sutherland, Alexandros Daglis, Babak Falsafi.
+  epfl-link: https://infoscience.epfl.ch/record/288432?ln=en
+  publisher-link: https://doi.org/10.1145/3466752.3480055
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    The emerging paradigm of microservices decomposes online services into fine-grained
+    software modules frequently communicating over the datacenter network,
+    often using Remote Procedure Calls (RPCs). Ongoing advancements in the network stack
+    have exposed the RPC layer itself as a bottleneck, that we show accounts for 40–90%
+    of a microservice's total execution cycles. We break down the underlying modules
+    that comprise production RPC layers and demonstrate, based on prior evidence,
+    that CPUs can only expect limited improvements for such tasks, mandating a shift to
+    hardware to remove the RPC layer as a limiter of microservice performance.
+    Although recently proposed accelerators can efficiently handle a portion of
+    the RPC layer, their overall benefit is limited by unnecessary CPU involvement, which
+    occurs because the accelerators are architected as co-processors under the CPU's
+    control. Instead, we show that conclusively removing the RPC layer bottleneck requires
+    all of the RPC layer's modules to be executed by a NIC-attached hardware accelerator.
+    We introduce Cerebros, a dedicated RPC processor that executes the Apache Thrift RPC
+    layer and acts as an intermediary stage between the NIC and the microservice running
+    on the CPU. Our evaluation using the DeathStarBench microservice suite shows that
+    Cerebros reduces the CPU cycles spent in the RPC layer by 37–64×, yielding a 1.8–14×
+    reduction in total cycles expended per microservice request.
+
+- title: "Equinox: Training (for Free) on a Custom Inference Accelerator."
+  venue: | 
+    In Proceedings of the 54th IEEE/ACM International Symposium on Microarchitecture,
+    MICRO'21, Virtual Event, Greece, October 2021.
+  authors: |
+    Mario Drumond, Louis Coulon, Arash Pourhabibi, Ahmet Yüzügüler, Babak Falsafi, Martin Jaggi.
+  epfl-link: https://infoscience.epfl.ch/record/288715?ln=en
+  publisher-link: https://doi.org/10.1145/3466752.3480057
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    DNN inference accelerators executing online services exhibit low average loads
+    because of service demand variability, leading to poor resource utilization.
+    Unfortunately, reclaiming idle inference cycles is difficult as other workloads
+    can not execute on a custom accelerator. With recent proposals for the use of
+    fixed-point arithmetic in training, there are opportunities for training services
+    to piggyback on inference accelerators. We make the observation that a key challenge
+    in doing so is maintaining service-level latency constraints for inference.
+    We show that relaxing latency constraints in an inference accelerator with ALU arrays
+    that are batching-optimized achieves near-optimal throughput for a given area
+    and power envelope while maintaining inference services' tail latency goals.
+    We present Equinox, a custom inference accelerator designed to piggyback training.
+    Equinox employs a uniform arithmetic encoding to accommodate inference and training
+    and a priority hardware scheduler with adaptive batching that interleaves training
+    during idle inference cycles. For a 500𝜇𝑠 inference service time constraint,
+    Equinox achieves 6.67× higher throughput than a latency-optimal inference accelerator.
+    Despite not being optimized for training services, Equinox achieves up to 78% of
+    the throughput of a dedicated training accelerator that saturates the available
+    compute resources and DRAM bandwidth. Finally, Equinox’s controller logic incurs
+    less than 1% power and area overhead, while the uniform encoding (to enable training)
+    incurs 13% power and 4% area overhead compared to a fixed-point inference accelerator.
+
+- title: "Data Transformer Apparatus."
+  venue: | 
+    Patent (Pending), March 2021.
+  authors: |
+    Arash Pourhabibi, Siddharth Gupta, Hussein Kassir, Mark Sutherland,
+    Zilu Tian, Mario Drumond, Babak Falsafi, Christoph Koch.
+  epfl-link: https://infoscience.epfl.ch/record/284796?ln=en
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Data transformer apparatus comprising at least a dispatcher module (D),
+    a reader module (R), a converter module (C) and a writer module (W).
+    The dispatcher module (D) is configured to: receive a data transformation request
+    (DTR) including: a first information item (X1) associated to a memory address where
+    data to be transformed (Data1) are stored and to a type attribute (T) of said data to
+    be transformed (Data1); a second information item (X2) indicating a memory address
+    where transformed data (Data2), obtained from said data to be transformed (Data1),
+    have to be written. The reader module (R) is configured to: retrieve the data to be
+    transformed, according to said first information item (X1); obtain the type attribute
+    (T) of the data to be transformed (Data1), based on said first information item (X1);
+    send the data to be transformed (Data1) and the type attribute (T) thereof to the
+    converter module (C). The converter module (C) is configured to: select one or more
+    transformation instructions (INST) based on said type attribute (T); execute,
+    on the data to be transformed (Data1), the selected one or more transformation
+    instructions (INST), thereby obtaining the transformed data (Data2);
+    send the transformed data (Data2) to the writer module (W). The writer module (W)
+    is configured to: receive the transformed data (Data2) from the converter module (C);
+    write the transformed data (Data2) in an output buffer according to said
+    second information item (X2).
+
+
+- title: "Optimus Prime: Accelerating Data Transformation in Servers."
+  venue: | 
+    In Proceedings of the 25th ACM International Conference on
+    Architectural Support for Programming Languages and Operating Systems,
+    ASPLOS'20, Lausanne, Switzerland, March 2020.
+  authors: |
+    Arash Pourhabibi, Siddharth Gupta, Hussein Kassir, Mark Sutherland,
+    Zilu Tian, Mario Drumond, Babak Falsafi, Christoph Koch.
+  epfl-link: https://infoscience.epfl.ch/record/274129?ln=en
+  publisher-link: https://doi.org/10.1145/3373376.3378501
+
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    Modern online services are shifting away from monolithic applications to
+    hundreds of loosely-coupled microservices because of the benefits they bring
+    in the form of scalability, reliability, programmability and deployment.
+    Because of the reduction in service time, the improvements in speed in
+    emerging network fabrics and communication protocols,
+    the data transformation software converting object formats from one microservice
+    to another is becoming a bottleneck.
+    In this paper, we introduce Optimus Prime (OP), a programmable accelerator
+    for data transformation that uses a novel hardware abstraction,
+    an in-memory schema specifying the operations required for data transformation.
+    The schema enables the accelerator front-end to maximize memory-level parallelism
+    through multiple pointer chains and gather data conversion tuples for
+    a parallel back-end. We show that OP can achieve a transformation throughput
+    at the network card line rate and has 100x higher throughput compared to software
+    at a tiny fraction of the CPU's silicon overhead or power.
+    We evaluate microservices on Thrift and show up to 30% reduction
+    in overall service latency.
+
+
+- title: Towards Near-Threshold Server Processors.
+  venue: |
+    In Proceedings of the 2016 Conference on
+    Design, Automation & Test in Europe (DATE), Dresden, Germany, March 2016.
+  authors: |
+    A. Pahlevan, J. Picorel, A. Pourhabibi, D. Rossi, M. Zapater,
+    A. Bartolini, P. G. Del Valle, D. Atienza, L. Benini, and B. Falsafi.
+  epfl-link: https://infoscience.epfl.ch/record/215306?ln=en
+  publisher-link: https://ieeexplore.ieee.org/abstract/document/7459272
+#  quote: >
+#    Short overview of the project (optional)
+  abstract: | # this will include new lines to allow paragraphs
+    The popularity of online services drives the need for bigger datacenters with more server processors.
+    As Moore’s law continues, the number of transistors on chip rises exponentially,
+    enabling us to have CMPs with hundreds of cores.
+    However, due to the slowdown in Dennard’s scaling, we cannot power up all of them at the same time.
+    Hence, soon we will enter an era of “dark silicon”, in which we cannot power up fast and dense processors.
+    In this work, we explore the potential directions to improve the energy efficiency of
+    server processors in the post-Dennard era. Moreover, we investigate the hardware- and software-related
+    constraints of designing a server processor for modern cloud services,
+    and we propose an approach based on near-threshold computing (NTC) to
+    design energy efficient server processors.
+    We propose an architecture based on the FD-SOI process technology for NTC in servers.
+    Our study demonstrates the benefits of NTC and proposes several directions to
+    synergistically increase the energy proportionality of a near-threshold server.

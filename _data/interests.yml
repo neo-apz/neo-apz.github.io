@@ -1,0 +1,12 @@
+# - name: Super awesome project
+  # link: github.com/sproogen
+  # github: sproogen/resume-theme
+  # quote: >
+  #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  # description: | # this will include new lines to allow paragraphs
+  #   I am broadly interested in the field of systems and interdisciplinary systems problems found in modern,
+  #   large-scale datacenters.
+  #   My current research revolves around efficiency and sustainability enhancement of server systems for datacenters.
+  #   By characterizing modern server workloads and employing emerging memory subsystems,
+  #   I look for minimizing the energy footprint and maximizing the compute density of server systems
+  #   through specialization of various system components, and better system integration.  

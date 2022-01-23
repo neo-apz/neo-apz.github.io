@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: neo-apz/neo-apz.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Arash Pourhabibi
+title: A computer geek, a food lover, and a traveler-wannabe
+email: arash.pourhabibi@oracle.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone:  +41 21 693 13 79
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: arash.pourhabibi.info
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: ArashPourhabibi
+github_username:  neo-apz
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: neo_apz
+linkedin_username: arashpourhabibizarandi
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,19 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My name is [Arash](https://en.wikipedia.org/wiki/Arash) (aka NEO).
+  I recently joined Oracle as a Member of Technical Staff (IC3) working on
+  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
+  Prior to that, I was a PhD candidate at the
+  [School of Computer and Communication Sciences](http://ic.epfl.ch/),
+  [EPFL](https://www.epfl.ch/en/home/), and a doctoral research assistant at
+  [PARSA](http://parsa.epfl.ch) under supervision of
+  [Prof. Babak Falsafi](http://parsa.epfl.ch/~falsafi/).
+  I did my master's in Software Engineering at the Department of CSE and IT of
+  [Shiraz University](http://en.wikipedia.org/wiki/Shiraz_University),
+  where I also received my B.Sc. in Software Engineering.
 
 content:
   - title: Projects # Title for the section
@@ -111,6 +115,38 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+# Interests Section
+# interests_title: Research Interests
+interests_content: | # this will include new lines to allow paragraphs
+  I am broadly interested in the field of computer systems and interdisciplinary
+  systems-level problems found in modern, large-scale datacenters, from cloud services
+  to data stores and all the way down to server systems.
+  By characterizing modern datacenter applications, I look for maximizing the
+  compute density of server systems and minimizing their energy footprint through
+  specialization of various system components and better system integration.
+  The focus of my PhD thesis was on the evasion of the RPC tax in datacenters
+  through hardware-software co-design.
+
+cv: files/cv.pdf
+cv_updated: December 2021
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+projects_enabled: false
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+# more_content: | # this will include new lines to allow paragraphs
+#   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+#   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -125,6 +161,7 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-paginate
 
 exclude : [
   "Gemfile",
@@ -138,3 +175,11 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+ 
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: /:year-:month-:day-:title/
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
