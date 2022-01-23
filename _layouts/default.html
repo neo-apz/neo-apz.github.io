@@ -27,9 +27,9 @@
       {%- endif -%}
 
 
-      <!-- {%- if site.data.projects.size > 0 -%}
+			{%- if site.data.projects.size > 0 and site.projects_enabled == true -%}
         {%- include projects.html -%}
-      {%- endif -%} -->
+			{%- endif -%}
 
       <!-- {%- if site.data.experience.size > 0 -%}
         {%- include experience.html -%}
