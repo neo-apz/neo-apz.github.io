@@ -30,8 +30,8 @@ linkedin_username: arashpourhabibizarandi
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
+# orcid_username: 0000-0002-9214-5981
+# googlescholar_username: qXU-jgYAAAAJ
 
 # Additional icon links
 additional_links:
@@ -52,17 +52,16 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is [Arash](https://en.wikipedia.org/wiki/Arash) (aka NEO).
-  I recently joined Oracle as a Member of Technical Staff (IC3) working on
-  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
+  I currently work at Oracle on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
   Prior to that, I was a PhD candidate at the
   [School of Computer and Communication Sciences](http://ic.epfl.ch/),
-  [EPFL](https://www.epfl.ch/en/home/), and a doctoral research assistant at
-  [PARSA](http://parsa.epfl.ch) under supervision of
+  [EPFL](https://www.epfl.ch/en/home/) and a doctoral research assistant at
+  [PARSA](http://parsa.epfl.ch) under the supervision of
   [Prof. Babak Falsafi](http://parsa.epfl.ch/~falsafi/).
-  I did my master's in Software Engineering at the Department of CSE and IT of
-  [Shiraz University](http://en.wikipedia.org/wiki/Shiraz_University),
-  where I also received my B.Sc. in Software Engineering.
+  
+# I did my master's in Software Engineering at the Department of CSE and IT of
+# [Shiraz University](http://en.wikipedia.org/wiki/Shiraz_University),
+# where I also received my B.Sc. in Software Engineering.
 
 content:
   - title: Projects # Title for the section
