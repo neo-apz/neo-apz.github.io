@@ -1,10 +1,42 @@
-# Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: PARSA, EPFL
+  link: parsa.epfl.ch
+  job_title: Doctoral Research Assistant
+  dates: Sept. 2015 - Present
+  # quote: >
+  #  Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Member of the Parallel Systems Architecture (PARSA) lab working under supervision Prof. Babak Falsafi.
+    Member of the CloudSuite team, and part of the core team responsible for its 3rd release.
+    Member of the Flexus simulator maintenance team,
+    and part of the core team working on its new version branded as QFlex.
+    Contributed to several other research projects focused on hardware and software co-design for
+    future generations of datacenter servers.
+
+- layout: left
+  company: CS Dept., Shiraz University
+  job_title: Member of the IT Support Team
+  dates: 2010 - 2013
+  description: | # this will include new lines to allow paragraphs
+    In charge of the maintenance of department's IT services.
+    Proposed and implemented new services for the department such as a CMS.
+
+- layout: left
+  company: Other
+  job_title:
+  dates: 
+  description: | # this will include new lines to allow paragraphs
+    Freelance Java and iOS Developer (2011 - 2013) \\
+    Intern at Shiraz University's CERT Center (2010 - 2011)
+
+# - company: Freelance
+#   job_title: Java and iOS Developer
+#   dates: 2011 - 2013
+#   description: | # this will include new lines to allow paragraphs
+
+
+# - company: Shiraz University’s CERT Center (ShirazAPA)
+#   job_title: Intern
+#   dates: 2010 - 2011
+#   description: | # this will include new lines to allow paragraphs
+#     Involved in research and development of several security-related projects such a secure update manager.

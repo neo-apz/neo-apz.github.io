@@ -8,6 +8,10 @@
     {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
       {{ site.about_content | strip | markdownify }}
+
+      {{ site.interests_content | strip | markdownify }}
+
+      <p> You can find my CV (updated {{ site.cv_updated }}) <a href= "{{ site.cv | relative_url }}" target="_blank">here</a>. </p>
     </div>
   </div>
 </div>

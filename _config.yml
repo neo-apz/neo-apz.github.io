@@ -3,29 +3,29 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Arash Pourhabibi
+title: A computer geek, a food lover, and a traveler-wannabe
+email: arash.pourhabibi@oracle.com
+# phone:  +41 21 693 13 79
+website: arash.pourhabibi.info
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+twitter_username: ArashPourhabibi
+github_username:  neo-apz
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: neo_apz
+linkedin_username: arashpourhabibizarandi
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -44,15 +44,34 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  My name is [Arash](https://en.wikipedia.org/wiki/Arash) (aka NEO).
+  I recently joined Oracle as a Member of Technical Staff (IC3) working on
+  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
+  Prior to that, I was a PhD candidate at the
+  [School of Computer and Communication Sciences](http://ic.epfl.ch/),
+  [EPFL](https://www.epfl.ch/en/home/), and a doctoral research assistant at
+  [PARSA](http://parsa.epfl.ch) under supervision of
+  [Prof. Babak Falsafi](http://parsa.epfl.ch/~falsafi/).
+  I did my master’s in Software Engineering at the Department of CSE and IT of
+  [Shiraz University](http://en.wikipedia.org/wiki/Shiraz_University),
+  where I also received my B.Sc. in Software Engineering.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+# Interests Section
+# interests_title: Research Interests
+interests_content: | # this will include new lines to allow paragraphs
+  I am broadly interested in the field of computer systems and interdisciplinary
+  systems-level problems found in modern, large-scale datacenters, from cloud services
+  to data stores and all the way down to server systems.
+  By characterizing modern datacenter applications, I look for maximizing the
+  compute density of server systems and minimizing their energy footprint through
+  specialization of various system components and better system integration.
+  The focus of my PhD thesis was on the evasion of the RPC tax in datacenters
+  through hardware-software co-design.
+
+cv: files/cv.pdf
+cv_updated: December 2021
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -83,6 +102,7 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-paginate
 
 exclude : [
   "Gemfile",
@@ -96,3 +116,11 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+ 
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: /:year-:month-:day-:title/
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
