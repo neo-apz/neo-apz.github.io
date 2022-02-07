@@ -52,7 +52,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I currently work at Oracle on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/).
+  I currently work at Oracle on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
+  a high performance analytics engine for Oracle's MySQL Database Service.
   Prior to that, I was a PhD candidate at the
   [School of Computer and Communication Sciences](http://ic.epfl.ch/),
   [EPFL](https://www.epfl.ch/en/home/) and a doctoral research assistant at
