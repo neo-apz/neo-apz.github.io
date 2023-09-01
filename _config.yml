@@ -121,11 +121,15 @@ interests_content: | # this will include new lines to allow paragraphs
   I am broadly interested in the field of computer systems and interdisciplinary
   systems-level problems found in modern, large-scale datacenters, from cloud services
   to data stores and all the way down to server systems.
-  By characterizing modern datacenter applications, I look for maximizing the
-  compute density of server systems and minimizing their energy footprint through
-  specialization of various system components and better system integration.
+  During my PhD, I looked for maximizing the compute density of server systems and
+  minimizing their energy footprint through specialization of various system components
+  and better system integration by characterizing modern datacenter applications.
   The focus of my PhD thesis was on the evasion of the RPC tax in datacenters
   through hardware-software co-design.
+  More recently and at Oracle, I've been working on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
+  Oracle's MySQL cloud database service for transactions,
+  real-time analytics across data warehouses and data lakes (i.e., Lakehouse), and machine learning.
+  My focus has been on the Lakehouse and Autopilot capabilities.
 
 cv: files/cv.pdf
 cv_updated: July 2022
