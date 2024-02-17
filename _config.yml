@@ -121,15 +121,20 @@ interests_content: | # this will include new lines to allow paragraphs
   I am broadly interested in the field of computer systems and interdisciplinary
   systems-level problems found in modern, large-scale datacenters, from cloud services
   to data stores and all the way down to server systems.
+
   During my PhD, I looked for maximizing the compute density of server systems and
   minimizing their energy footprint through specialization of various system components
   and better system integration by characterizing modern datacenter applications.
   The focus of my PhD thesis was on the evasion of the RPC tax in datacenters
   through hardware-software co-design.
-  More recently and at Oracle, I've been working on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
+
+  More recently and at Oracle, I've been working on
+  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
   Oracle's MySQL cloud database service for transactions,
-  real-time analytics across data warehouses and data lakes (i.e., Lakehouse), and machine learning.
-  My focus has been on the Lakehouse and Autopilot capabilities.
+  real-time analytics across data warehouses and data lakes (i.e., Lakehouse),
+  and machine learning. My focus has been on the
+  [Lakehouse](https://www.oracle.com/mysql/heatwave/#lakehouse) and
+  [Autopilot](https://www.oracle.com/mysql/heatwave/#autopilot) capabilities.
 
 cv: files/cv.pdf
 cv_updated: September 2023
@@ -146,13 +151,16 @@ projects_enabled: false
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
-# more_content: | # this will include new lines to allow paragraphs
-#   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+more_content: | # this will include new lines to allow paragraphs
+  I am passionate about teaching and education in general, which is why I have
+  started translating a [textbook on Software Engineering](https://saasbook.info/translation-fa)
+  from English to Persian. Apart from being a computer geek, I enjoy running
+  and am also a food lover and a traveler-wannabe.
 
 #   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings

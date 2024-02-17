@@ -1,3 +1,5 @@
+{%- include v1/interests.html -%}
+
 {%- if site.data.education.size > 0 -%}
 	{%- include v1/education.html -%}
 {%- endif -%}
@@ -9,8 +11,6 @@
 {%- if site.data.projects.size > 0 and site.projects_enabled == true -%}
 	{%- include v1/projects.html -%}
 {%- endif -%}
-
-<!-- {%- include v1/interests.html -%} -->
 
 <!-- {%- if site.data.experience.size > 0 -%}
 	{%- include v1/experience.html -%}
