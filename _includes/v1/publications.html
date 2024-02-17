@@ -1,7 +1,7 @@
 <div class="container more-container">
     <h3>{{ site.publications_title | default: "Publications" }}</h3>
     {% for publication in site.data.publications %}
-        <div class="row clearfix experience">    
+        <div class="row clearfix experience">
           <div class="col-md-12">
                 <p>
                     <b> {{ publication.title }}</b>
@@ -14,15 +14,10 @@
                     {%- if publication.publisher-link -%}
                       {% include a.html href=publication.publisher-link class="project-link" %} [View at Publisher] </a>
                     {%- endif -%}
-                    
-                    
                 </p>
-                
                 <!-- {{ publication.title | strip | markdownify }} -->
-                
                 <!-- {{ publication.abstract | strip | markdownify }}             -->
           </div>
         </div>
     {% endfor %}
   </div>
-	

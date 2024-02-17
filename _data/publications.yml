@@ -64,12 +64,13 @@
     incurs 13% power and 4% area overhead compared to a fixed-point inference accelerator.
 
 - title: "Data Transformer Apparatus."
-  venue: | 
-    Patent (Pending), March 2021.
+  venue: |
+    Patent US11748254B2, September 2021.
   authors: |
     Arash Pourhabibi, Siddharth Gupta, Hussein Kassir, Mark Sutherland,
     Zilu Tian, Mario Drumond, Babak Falsafi, Christoph Koch.
   epfl-link: https://infoscience.epfl.ch/record/284796?ln=en
+  publisher-link: https://patents.google.com/patent/US11748254B2/en
 
 #  quote: >
 #    Short overview of the project (optional)
