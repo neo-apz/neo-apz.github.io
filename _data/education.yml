@@ -4,29 +4,20 @@
   qualification: Ph.D. in Computer & Communication Sciences
   # quote: >
   #   Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Doctoral research assistant at the Parallel Systems Architecture (PARSA) lab under supervision of Prof. Babak Falsafi.
-    
-    Thesis: Hardware-Software Co-Design of an RPC Processor
-    
-    Related Courses: Advanced Multiprocessor Architecture, Topics on Datacenter Design, Understanding Datacenter Software Dynamics
+  description:
+    - "Thesis: Hardware-Software Co-Design of an RPC Processor"
+    - "Advisor: Prof. Babak Falsafi"
 
 - layout: left
   name: Shiraz University
   dates: 2013 - 2015
   qualification: M.Sc. in Computer Engineering (Software Engineering)
-  description: | # this will include new lines to allow paragraphs
-    Thesis: Design & Implementation of a Scheme for Big Data Processing on GPU
-    
-    Advisor: Dr. Farshad Khunjush
-    
-    Ranked First: Achieving the highest course GPA (19.84/20) among all M.Sc. students
-    
-    Related Courses: Advanced OS, Advanced Computer Architecture, Multicore Programming, Parallel Algorithms, Grid Computing, Software Architecture, Text Mining
+  description:
+    - "Thesis: Design & Implementation of a Scheme for Big Data Processing on GPU"
+    - "Advisor: Dr. Farshad Khunjush"
 
 - layout: left
   name: Shiraz University
   dates: 2009 - 2013
   qualification: B.Sc. in Computer Engineering (Software Engineering)
-  description: | # this will include new lines to allow paragraphs
-    Ranked First: Achieved the highest GPA in CS courses (18.88/20) among all B.Sc. students
+  # description: | # this will include new lines to allow paragraphs

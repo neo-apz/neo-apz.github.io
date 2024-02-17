@@ -1,6 +1,22 @@
 <div class="container education-container">
   <h3 id="{{ site.education_title | slugify | default: 'education' }}">{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
+  <!-- {% for education in site.data.education %}
     {% include {{ education.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=education %}
-  {% endfor %}
+  {% endfor %} -->
+  <ul>
+  {% for education in site.data.education %}
+        <div class="row clearfix experience">
+          <div class="col-md-12">
+            <li>
+              <b>{{ education.qualification }}, {{ education.name }} [{{ education.dates }}] </b>
+              <ul>
+                {% for description in education.description %}
+                  <li> {{ description | strip | markdownify }} </li>
+                {% endfor %}
+              </ul>
+            </li>
+          </div>
+        </div>
+{% endfor %}
+</ul>
 </div>
