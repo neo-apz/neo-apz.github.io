@@ -1,5 +1,8 @@
 <div class="container more-container">
-    <h3>{{ site.publications_title | default: "Publications" }}</h3>
+    <h3>
+      <i class="fa-solid fa-book"></i>
+      {{ site.publications_title | default: "Publications" }}
+    </h3>
     {% for publication in site.data.publications %}
         <div class="row clearfix experience">
           <div class="col-md-12">
