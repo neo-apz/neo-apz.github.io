@@ -53,8 +53,10 @@ google_analytics_4: "G-05Q3LL2KDQ"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I currently work at Oracle on [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
-  a high performance analytics engine for Oracle's MySQL Database Service.
+  I currently work at Oracle on [HeatWave](https://www.oracle.com/heatwave/),
+  Oracle's unified MySQL Database Service that combines transactional and
+  analytical processing with built-in lakehouse, machine learning, and GenAI
+  capabilities, all in a single service.
   Prior to that, I was a PhD candidate at the
   [School of Computer and Communication Sciences](http://ic.epfl.ch/),
   [EPFL](https://www.epfl.ch/en/home/) and a doctoral research assistant at
@@ -130,12 +132,12 @@ interests_content: | # this will include new lines to allow paragraphs
   through hardware-software co-design.
 
   More recently and at Oracle, I've been working on
-  [MySQL HeatWave](https://www.oracle.com/mysql/heatwave/),
+  [HeatWave](https://www.oracle.com/heatwave/),
   Oracle's MySQL cloud database service for transactions,
   real-time analytics across data warehouses and data lakes (i.e., Lakehouse),
-  and machine learning. My focus has been on the
-  [Lakehouse](https://www.oracle.com/mysql/heatwave/#lakehouse) and
-  [Autopilot](https://www.oracle.com/mysql/heatwave/#autopilot) capabilities.
+  machine learning, and GenAI. My focus has been on the
+  [Lakehouse](https://www.oracle.com/mysql/lakehouse/) and
+  [Autopilot](https://www.oracle.com/heatwave/features/#autopilot) capabilities.
 
 cv: files/cv.pdf
 cv_updated: September 2023
